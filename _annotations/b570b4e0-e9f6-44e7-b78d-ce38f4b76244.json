@@ -1,0 +1,46 @@
+---
+canvas: "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589080.0x000175"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Poor Gentleman.",
+            "purpose": "editing",
+            "creator": {
+                "id": "altomator",
+                "name": "Jean-Philippe Moreux"
+            },
+            "created": "2022-10-29T20:19:08.950Z",
+            "modified": "2022-10-29T20:19:46.781Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Title",
+            "purpose": "tagging",
+            "creator": {
+                "id": "altomator",
+                "name": "Jean-Philippe Moreux"
+            },
+            "created": "2022-10-29T20:19:49.987Z",
+            "modified": "2022-10-29T20:19:51.054Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589080.0x000175",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=381.3027648925781,866.3446655273438,1705.6864929199219,196.11346435546875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100022589080.0x000002/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b570b4e0-e9f6-44e7-b78d-ce38f4b76244.json",
+    "motivation": "commenting"
+}
