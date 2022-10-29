@@ -1,0 +1,35 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531454753/canvas/f1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "F\u00eate du Tr\u00f4ne",
+            "purpose": "commenting",
+            "creator": {
+                "id": "altomator",
+                "name": "Jean-Philippe Moreux"
+            },
+            "created": "2022-10-29T20:42:42.264Z",
+            "modified": "2022-10-29T20:42:46.382Z"
+        }
+    ],
+    "target": {
+        "source": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531454753/canvas/f1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4109.9150390625,381.8179931640625,1094.38916015625,476.35162353515625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b531454753/f1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8d47bd4c-cc72-4a10-9bf1-255d62008fc7.json",
+    "motivation": "commenting"
+}
